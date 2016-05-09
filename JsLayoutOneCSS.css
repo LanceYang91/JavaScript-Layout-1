@@ -1,0 +1,65 @@
+/*This is going to be a static page*/
+
+#header{
+	width: 1260px;
+	height: 50px;
+	border: 3px solid;
+	margin: 0px 0px 25px 0px;
+	padding: 0px 0px 30px 0px;
+	text-align: center;
+}
+
+#boxOne{
+	width: 200px;
+	height: 210px;
+	border: 3px solid;
+	margin: 0px 0px 25px 0px;
+	/* Did not work had to make ul id
+	list-style-type:none; */
+}
+
+#boxOne #nav {
+	list-style-type:none;
+	/* Did not work had to make new Id focusing on 'li a'
+	text-decoration: none; 
+	display: block; */
+	text-align: center;
+}
+
+#boxOne #nav li button{
+	text-decoration: none;
+	display: block;
+	border: solid;
+	background-color: gray;
+	color: black; /*changes color of text*/
+	padding: 5px 5px 5px 5px;
+	margin: 12px 40px 10px 5px;
+}
+
+#boxOne #nav li button:hover{
+	background-color: blue;
+}
+
+#boxTwo{
+	width: 1245px;
+	height: 230px;
+	border: 3px solid;
+	padding: 0px 0px 0px 15px;
+	margin: 0px 0px 25px 0px;
+}
+
+#boxThree{
+	width: 1245px;
+	height: 200px;
+	border: 3px solid;
+	padding: 0px 0px 0px 15px;
+	margin: 0px 0px 25px 0px;
+}
+
+#boxFour{
+	width: 1245px;
+	height: 200px;
+	border: 3px solid;
+	padding: 0px 0px 0px 15px;
+	margin: 0px 0px 25px 0px;
+}

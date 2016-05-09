@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>JS Layout One</title>
+		<link id="pagestyle" rel="stylesheet" type="text/css" href="LayoutTwoCSS.CSS">
+		<script>
+			function changeStyleSheet(sheet){
+				document.getElementById('pagestyle').setAttribute('href', sheet);
+			}
+		</script>
+	</head>
+	<body>
+		<div id="header">
+			<h1>HEADER</h1>
+		</div>
+		<div id="boxOne">
+			<ul id="nav">
+				<li> <button onclick= "changeStyleSheet('JsLayoutOneCSS.CSS')">CSS Style One</button>
+				<li> <button onclick= "changeStyleSheet('LayoutTwoCSS.CSS')">CSS Style Two</button>
+				<li> <button onclick= "changeStyleSheet(' ')">CSS Style None</button>
+				<li> <button onclick= "window.alert('Access Denied')">Style Four</button>
+			</ul>
+		</div>
+		<div id="boxTwo">
+			<h1>The First Article</h1>
+			<p>This is the first sentence of the "The First", name from
+			the heading. I am trying to write this sentenct to make sure
+			that it has at least another line. But as you can see it needs
+			a lot of words or letters in order to get a new line.</p>
+			<h3>Using Javascript</h3>
+			<p>This is my example of implemting Javascript.
+			By having multiple buttons or link types, I am able
+			to call upon actions within the page.</p>
+			<p>These actions allow the page to be active allowing
+			users to be able to change the website. With these
+			examples I am hoping to show that I am able to operate
+			with HTML, CSS, and JAVASCRIPT.</p>
+			
+		</div>
+		<div id="boxThree">
+			<h2>Ad space</h2>
+		</div>
+		<div id="boxFour">
+			<h2>Box Four</h2>
+		</div>
+	
+	
+	</body>
+</html>

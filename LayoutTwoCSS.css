@@ -1,0 +1,71 @@
+/*This layout will be a static layout*/
+
+#header{
+	width: 630px;
+	height: 50px;
+	border: 3px solid;
+	margin: 0px 315px 25px 315px;
+	padding: 0px 0px 30px 0px;
+	text-align: center;
+}
+
+#boxOne{
+	width: 900px;
+	height: 100px;
+	border: 3px solid;
+	margin: 0px 90px 25px 90px;
+	padding: 0px 0px 0px 100px;
+	/* Did not work had to make ul id
+	list-style-type:none; */
+}
+
+#boxOne #nav {
+	list-style-type:none;
+	text-align: center;
+	
+}
+
+#boxOne #nav li button{
+	text-decoration: none;
+	display: block;
+	border: solid;
+	background-color: gray;
+	color: black; /*changes color of text*/
+	padding: 5px 10px 5px 15px;
+	margin: 15px 35px 10px 40px;
+	float: left;
+}
+
+#boxOne #nav li button:hover{
+	background-color: red;
+}
+
+#boxTwo{
+	width: 556px;
+	height: 230px;
+	border: 3px solid;
+	padding: 0px 15px 0px 15px;
+	margin: 0px 15px 25px 0px;
+	overflow: auto;
+	float: left;
+}
+
+#boxThree{
+	width: 616px;
+	height: 150px;
+	border: 3px solid;
+	padding: 80px 0px 0px 0px;
+	margin: 0px 0px 25px 0px;
+	float: right;
+	text-align: center;
+}
+
+#boxFour{
+	width: 1220px;
+	height: 100px;
+	border: 3px solid;
+	padding: 15px 28px 0px 0px;
+	margin: 0px 0px 0px 15px;
+	clear: both;
+	text-align: center;
+}
